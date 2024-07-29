@@ -1,3 +1,6 @@
+import Navar from './components/Navbar/Navar'
+import Heero from './components/Hero/Heero'
+import Highlight from './components/Highlight/Highlight'
 
 
 const App = () => {
@@ -5,9 +8,9 @@ const App = () => {
 
   return (
  <main className="bg-black">
-   navbar 
-   hero 
-   hilights
+   <Navar/>
+   <Heero/>
+   <Highlight/>
  </main>
   )
 }
