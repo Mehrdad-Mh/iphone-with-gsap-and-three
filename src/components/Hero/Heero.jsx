@@ -27,8 +27,8 @@ const Heero = () => {
 
   useGSAP(() => {
     gsap.to("#hero", { opacity: 1, delay: 1.5, duration: 2 });
-    gsap.to("#herovid", { delay: 1.5, duration: 8, y: 25 });
-    gsap.to("#cta" , { opacity:1, y:-50 , delay:1.5,duration:3 })
+    gsap.to("#herovid", { delay: 1.5, duration: 6, y: 25 });
+    gsap.to("#cta" , { opacity:1, y:-100 , delay:1.5,duration:2 })
   }, []);
 
   return (

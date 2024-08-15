@@ -10,7 +10,7 @@ import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
 import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
-
+import loadinggg from "/assets/images/loadingg.gif";
 import apple from "/assets/images/apple.svg";
 import search from "/assets/images/search.svg";
 import bag from "/assets/images/bag.svg";
@@ -29,6 +29,8 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
+
+export const loadingg = loadinggg
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
